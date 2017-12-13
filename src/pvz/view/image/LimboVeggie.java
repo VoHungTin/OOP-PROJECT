@@ -5,16 +5,23 @@ import java.awt.Graphics;
 import pvz.controller.PvZController;
 
 /**
- *   * Visual object that represents a GhettoBlaster Veggie   *  
+ * Visual object that represents a Pom-Pom Veggie
+ *
  * <p>
- * This class contains all the information necessary for the correct   * Visual
- * operation of GhettoBlaster Veggies. It contains values   * predetermined
- * variables to distinguish the Limbo Veggies from   * other kinds of JVeggies.
- * </ p>  
+ * This class contains all the information necessary for the correct Visual
+ * operation of Pom-Pom Veggies. It contains values predetermined variables to
+ * distinguish Pom-Pom Veggies from other kinds of JVeggies. </ p>
  */
-public class LimboVeggie extends JVeggie {
+public class Veggies extends JVeggie {
 
-    public LimboVeggie(float posiX, int noZombie, final PvZController controller) {
-        super(posiX, "LV", noZombie, controller);
+    /**
+     * Constructor CoachVeggie
+     *
+     * @param posiX
+     * @param noZombie
+     * @param controller
+     */
+    public Veggies(float posiX, int noZombie, final PvZController controller) {
+        super(posiX, "CV", noZombie, controller);
     }
 }
