@@ -48,15 +48,14 @@ public class Peanut extends JPlant {
 
     /**
     * Pig-launcher constructor that initializes the default loaded boolean
-     * to true, the communication with the game field board, the date of the last
-     * shot, time to reload, creation time, active state true by
-     * default, as well as the active image.
-     *
-     * @param jzp An object that represents an area where you can plant a plant.
-     * @param controller Initializes the controller and thus establishes
-     * the communication between the two.
-     * @param pnlLeadground Allows you to initialize the main window and,
-     * thus, establish the communication between the two.
+�   * to true, the communication with the game field board, the date of the last
+    * shot, time to reload, creation time, active state true by
+   �* default, as well as the active image.                                                                                                                     
+�   * @param jzp An object that represents an area where you can plant a plant.
+�   * @param controller Initializes the controller and thus establishes
+�   * the communication between the two.
+�   * @param pnlLeadground Allows you to initialize the main window and,
+    �* thus, establish the communication between the two.
      */
     public Peanut(final PvZController controller, JZonePlantable jzp, PnlTerrainJeu pnlTerrainJeu) {
         super(jzp, controller, "LanceCochon");

@@ -15,7 +15,7 @@ import pvz.view.projectiles.Peas;
 public class PeaShooter extends JPlant {
 
     /*
-     * Contains the image it should display when the variable is called.     
+     * Contains the image it should display when the variable is called.     
      */
     private Image imgActuelle;
     /*
